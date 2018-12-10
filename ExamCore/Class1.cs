@@ -8,5 +8,6 @@ namespace ExamCore
 {
     public class Class1
     {
+        public String Type { get; set; }
     }
 }
