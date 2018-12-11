@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ExamCore
 {
     public enum Specialite { GL, BI, CLOUD, EMBARQUE, RESEAU, TELECOME }
-    class Ingenieur : Personne
+  public  class Ingenieur : Personne
     {
         public Specialite Specialite { get; set; }
         public List<Affectation> Affectations { get; set; }
@@ -18,6 +18,15 @@ namespace ExamCore
             Specialite = specialite;
         }
 
+        public Ingenieur(int id, string nom, string prenom, string email,Specialite specialite, List<Affectation> affectations)
+        {
+            Id = id;
+            Nom = nom;
+            Prenom = prenom;
+            Email = email;
+            Specialite = specialite;
+            Affectations = affectations;
+        }
         public Ingenieur()
         {
             Affectations = new List<Affectation>();

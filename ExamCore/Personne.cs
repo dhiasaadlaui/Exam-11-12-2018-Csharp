@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExamCore
 {
-    class Personne
+  public  class Personne
     {
         public int Id { get; set; }
         public String Nom { get; set; }

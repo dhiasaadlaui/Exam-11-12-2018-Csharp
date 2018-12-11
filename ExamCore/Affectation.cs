@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace ExamCore
 {
-    class Affectation
+    public class Affectation
     {
         public DateTime DateDebut { get; set; }
         public DateTime DateFin { get; set; }
         public float Prix { get; set; }
         public Ingenieur Ingenieur { get; set; }
+        public Projet Projet { get; set; }
 
         public Affectation(DateTime dateDebut, DateTime dateFin, float prix, Ingenieur ingenieur)
         {
@@ -30,7 +31,6 @@ namespace ExamCore
             float tot = 0;
            
                 tot = A1.Prix + A2.Prix;
-
             
             return tot;
         }

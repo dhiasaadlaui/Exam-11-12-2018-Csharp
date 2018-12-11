@@ -1,0 +1,6 @@
+C:\Users\Dhia\source\repos\ExamSolution-11-12-2018\ExamCore\bin\Debug\ExamCore.dll
+C:\Users\Dhia\source\repos\ExamSolution-11-12-2018\ExamCore\bin\Debug\ExamCore.pdb
+C:\Users\Dhia\source\repos\ExamSolution-11-12-2018\ExamCore\obj\Debug\ExamCore.csprojAssemblyReference.cache
+C:\Users\Dhia\source\repos\ExamSolution-11-12-2018\ExamCore\obj\Debug\ExamCore.csproj.CoreCompileInputs.cache
+C:\Users\Dhia\source\repos\ExamSolution-11-12-2018\ExamCore\obj\Debug\ExamCore.dll
+C:\Users\Dhia\source\repos\ExamSolution-11-12-2018\ExamCore\obj\Debug\ExamCore.pdb

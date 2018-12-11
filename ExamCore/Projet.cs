@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace ExamCore
 {
-    class Projet
+    public class Projet
     {
         public int Id { get; set; }
         public String Nom { get; set; }
         public DateTime Deadline { get; set; }
+        public ChefProjet chef { get; set; }
         public List<Affectation> Affectations { get; set; }
 
         public Projet()
